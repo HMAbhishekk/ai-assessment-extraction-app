@@ -14,6 +14,12 @@ A teacher uploads a question paper and one student's handwritten answer sheet. T
 
 Everything runs on a **self-hosted, free, local AI model (Ollama)** - no paid API, no API key, no database. State lives in server memory for the lifetime of a request.
 
+## Live demo
+
+**http://assessment-app-hmabhishekk.eastasia.azurecontainer.io:7860**
+
+Deployed on Azure Container Instances (4 vCPU / 16GB RAM) from this repo's [`Dockerfile`](./Dockerfile). Note: this is a demo link with no authentication in front of it.
+
 ## Try it
 
 A sample question paper and a synthetic (typed, not real handwriting) answer sheet are included in [`samples/`](./samples) if you want to try the live app without your own files.
