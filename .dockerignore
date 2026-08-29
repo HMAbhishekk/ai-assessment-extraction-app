@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+dev
+test_fixtures
+*.md
+!README.md
+.env*
